@@ -1,0 +1,334 @@
+Mods: {
+	FlightControl: {
+		UI: {
+			ExampleResource: Mods.FlightControl.UI.ExampleResource
+			EnergyShield: Mods.FlightControl.UI.EnergyShield
+		}
+
+		Keybinds: {
+			"Fly Up.DisplayName": Fly  Up
+			"Fly Left.DisplayName": Fly  Left
+			"Fly Right.DisplayName": Fly  Right
+			"Fly Down.DisplayName": Fly  Down
+			"Activate Set Bonus Ability.DisplayName": Activate  Set  Bonus  Ability
+			"Flip Gravity.DisplayName": Flip  Gravity
+			Dash.DisplayName: Dash
+			"Use Item #10.DisplayName": Use  Item #10
+			"Use Item #11.DisplayName": Use  Item #11
+			"Use Item #12.DisplayName": Use  Item #12
+			"Use Item #13.DisplayName": Use  Item #13
+			"Use Item #14.DisplayName": Use  Item #14
+			"Use Item #15.DisplayName": Use  Item #15
+			"Use Item #16.DisplayName": Use  Item #16
+			"Use Item #17.DisplayName": Use  Item #17
+			"Use Item #18.DisplayName": Use  Item #18
+			"Use Item #19.DisplayName": Use  Item #19
+		}
+
+		Biomes: {
+			CelebrationEvent: {
+				DisplayName: Celebration Event
+				TownNPCDialogueName: the Celebration Event
+			}
+		}
+
+		Buffs: {
+			Corona: {
+				Description: burns away all
+				DisplayName: Corona
+			}
+
+			Fastfall: {
+				DisplayName: Fastfall
+				Description: Mods.FlightControl.Buffs.Fastfall.Description
+			}
+
+			Shatter: {
+				DisplayName: Shatter
+				Description: Mods.FlightControl.Buffs.Shatter.Description
+			}
+
+			Stoneskin: {
+				DisplayName: Stoneskin
+				Description: Mods.FlightControl.Buffs.Stoneskin.Description
+			}
+
+			Tipsy2: {
+				DisplayName: Tipsy2
+				Description: Mods.FlightControl.Buffs.Tipsy2.Description
+			}
+		}
+
+		Items: {
+			CelebrationEventSpawner: {
+				DisplayName: Celebration Event Spawner
+				Tooltip: ""
+			}
+
+			EmpressEternalSummon: {
+				DisplayName: Custom Empress Summon
+				Tooltip: ""
+			}
+
+			DivineDiffractor: {
+				DisplayName: Divine Diffractor
+				Tooltip: ""
+			}
+
+			EnergyShield: {
+				DisplayName: Energy Shield
+				Tooltip: ""
+			}
+
+			Talons: {
+				DisplayName: Talons
+				Tooltip:
+					'''
+					Increases summon knockback
+					12% increased whip speed and damage
+					Increases the size of whips by 10%
+					Enemies are more likely to target you
+					'''
+			}
+
+			TrueHeroShield: {
+				DisplayName: True Hero Shield
+				Tooltip: ""
+			}
+
+			NeutroniumBar: {
+				DisplayName: Neutronium Bar
+				Tooltip: ""
+			}
+
+			NovaFragment: {
+				DisplayName: Nova Fragment
+				Tooltip: ""
+			}
+
+			PermanantSoaringInsignia: {
+				DisplayName: Permanant Soaring Insignia
+				Tooltip: ""
+			}
+
+			PlayerVoodooPoppet: {
+				DisplayName: Player Voodoo Poppet
+				Tooltip: ""
+			}
+
+			ArenaPotion: {
+				DisplayName: Arena Potion
+				Tooltip: ""
+			}
+
+			BaseCombinedPotion: {
+				DisplayName: Base Combined Potion
+				Tooltip: ""
+			}
+
+			FastfallPotion: {
+				DisplayName: Fastfall Potion
+				Tooltip: ""
+			}
+
+			GeneralPotion: {
+				DisplayName: General Potion
+				Tooltip: ""
+			}
+
+			GeneralPotion2: {
+				DisplayName: General Potion2
+				Tooltip: ""
+			}
+
+			MagicPotion: {
+				DisplayName: Magic Potion
+				Tooltip: ""
+			}
+
+			MeleePotion: {
+				DisplayName: Melee Potion
+				Tooltip: ""
+			}
+
+			RangedPotion: {
+				DisplayName: Ranged Potion
+				Tooltip: ""
+			}
+
+			StoneskinPotion: {
+				DisplayName: Stoneskin Potion
+				Tooltip: ""
+			}
+
+			SummonPotion: {
+				DisplayName: Summon Potion
+				Tooltip: ""
+			}
+
+			PvpBreastplate: {
+				DisplayName: Pvp Breastplate
+				Tooltip: ""
+			}
+
+			PvpHelmet: {
+				DisplayName: Pvp Helmet
+				Tooltip: ""
+			}
+
+			PvpLeggings: {
+				DisplayName: Pvp Leggings
+				Tooltip: ""
+			}
+
+			DoubleMana: {
+				DisplayName: Double Mana
+				Tooltip: ""
+			}
+
+			FastDash: {
+				DisplayName: Fast Dash
+				Tooltip: ""
+			}
+
+			MediumDash: {
+				DisplayName: Medium Dash
+				Tooltip: ""
+			}
+
+			Regen: {
+				DisplayName: Regen
+				Tooltip: ""
+			}
+
+			Regen2: {
+				DisplayName: Regen2
+				Tooltip: ""
+			}
+
+			SlowDash: {
+				DisplayName: Slow Dash
+				Tooltip: ""
+			}
+
+			SlowProjectiles: {
+				DisplayName: Slow Projectiles
+				Tooltip: ""
+			}
+
+			SlowWings: {
+				DisplayName: Slow Wings
+				Tooltip: ""
+			}
+
+			Autocannon: {
+				DisplayName: Autocannon
+				Tooltip: ""
+			}
+
+			EmpressLance: {
+				DisplayName: Empress Lance
+				Tooltip: ""
+			}
+
+			LastPrism: {
+				DisplayName: Last Prism
+				Tooltip: ""
+			}
+
+			Railgun: {
+				DisplayName: Railgun
+				Tooltip: ""
+			}
+
+			Shotgun: {
+				DisplayName: Shotgun
+				Tooltip: ""
+			}
+
+			Spiral: {
+				DisplayName: Spiral
+				Tooltip: ""
+			}
+
+			SeafoodSnatcher: {
+				DisplayName: Seafood Snatcher
+				Tooltip: ""
+			}
+
+			NovaGun: {
+				Tooltip: ""
+				DisplayName: Nova Gun
+			}
+
+			CoronalPotion: {
+				DisplayName: Coronal Potion
+				Tooltip: ""
+			}
+
+			EmpressLance2: {
+				DisplayName: Empress Lance2
+				Tooltip: ""
+			}
+
+			EmpressLance3: {
+				DisplayName: Empress Lance3
+				Tooltip: ""
+			}
+		}
+
+		Projectiles: {
+			EmpressEternalWhipProjectile.DisplayName: Custom Empress Whip Projectile
+			RailgunBullet.DisplayName: Railgun Bullet
+		}
+
+		Configs: {
+			Config: {
+				DisplayName: Config
+
+				Headers: {
+					Flight: Flight Header
+					Potions: Potions Header
+					MinionAutosummon: Minion Autosummon Header
+				}
+
+				FlightTimer: {
+					Label: Flight Timer
+					Tooltip: Adds a timer next to the player to show how much wing time is left. False for no timer, true for timer.
+				}
+
+				DisableBuffButton: {
+					Label: Disable Buff Icon Interaction
+					Tooltip: Prevents Buff Icon from interfering with cursor
+				}
+
+				HideBuffIcons: {
+					Label: Hide Buff Icons
+					Tooltip: ""
+				}
+
+				HideInferno: {
+					Label: Hide Inferno Potion
+					Tooltip: ""
+				}
+
+				PermanantPotion: {
+					Label: Permanant Combined Potions
+					Tooltip: Stacks of Combined Potions above 30 give permanant buffs while in the inventory
+				}
+
+				summonCount: {
+					Label: Minion Autosummon Count
+					Tooltip: How many times to summon the minions favorited or in bank
+				}
+
+				summonBank: {
+					Label: Include Piggy Bank
+					Tooltip: Automatically summon minions in piggy bank
+				}
+			}
+		}
+
+		NPCs.EmpressEternal.DisplayName: Empress Eternal
+	}
+}
