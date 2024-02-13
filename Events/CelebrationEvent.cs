@@ -157,9 +157,6 @@ namespace FlightControl{
                         break;
                 }
             }
-            if(wave+1==18&&progressMileStone==0){
-
-            }
             if(Main.invasionType == EventId&&Main.invasionSize <= 1&&wave+1<waveCount)
             {
                 wave++;
