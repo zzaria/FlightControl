@@ -26,6 +26,10 @@ namespace FlightControl
             maxBoostedFallSpeed = 0;
             maxBoostedGravity = 0;
             corona=false;
+            for(int i=0;i<4;i++){
+                Player.doubleTapCardinalTimer[i]=0;
+            }
+            Player.dashTime=0;
         }
         public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
         {
@@ -52,6 +56,16 @@ namespace FlightControl
         public override void PostUpdateEquips (){
             if(permanantSoaringInsignia){
                 Player.empressBrooch=true;
+            }
+            if(FlightControl.Dash.JustPressed){
+                if(FlightControl.FlyLeftHotkey.Current){
+                    Player.dashTime=-999;
+                    Player.controlLeft=Player.releaseLeft=true;
+                }
+                else if(FlightControl.FlyRightHotkey.Current){
+                    Player.dashTime=999;
+                    Player.controlRight=Player.releaseRight=true;
+                }
             }
         }
         public override void PostUpdateRunSpeeds()
@@ -126,6 +140,7 @@ namespace FlightControl
                 Player.vortexStealthActive=true;    
             }
 
+
             //wings autopilot
             WingStats wings = Player.GetWingStats(Player.wingsLogic);
             if (FlightControl.FlyUpHotkey.Current)
@@ -137,7 +152,7 @@ namespace FlightControl
                     Player.controlUp = -Player.velocity.Y < Player.jumpSpeed * Player.gravDir * 3;
                 }
             }
-            //for some reason the game uses velocity==0 to check grounded or grappled, but not hovering
+            //for some reason the game uses velocity==0 to check grounded or grappled, but when hovering velocity=1e-5
             if (Player.velocity.Y != 0.0 && !Player.mount.Active)
             {
                 if (!FlightControl.FlyDownHotkey.Current && !FlightControl.FlyUpHotkey.Current)
@@ -179,6 +194,7 @@ namespace FlightControl
                     }
                 }
             }
+
         }
         public override void ProcessTriggers(TriggersSet triggersSet){
             if(triggersSet.Hotbar1){

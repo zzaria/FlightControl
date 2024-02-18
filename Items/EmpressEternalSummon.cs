@@ -37,6 +37,8 @@ namespace FlightControl.Items
 				if (Main.netMode != NetmodeID.MultiplayerClient) {
 					// If the player is not in multiplayer, spawn directly
 					NPC.SpawnOnPlayer(player.whoAmI, type);
+					NPC.SpawnOnPlayer(player.whoAmI, type);
+					NPC.SpawnOnPlayer(player.whoAmI, type);
 				}
 				else {
 					// If the player is in multiplayer, request a spawn

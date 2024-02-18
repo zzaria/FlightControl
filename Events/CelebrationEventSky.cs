@@ -29,11 +29,9 @@ namespace FlightControl
                 0, 0, Main.screenWidth, Main.screenHeight), Microsoft.Xna.Framework.Color.White);
 		}
 		public override bool IsActive(){
-            //Main.NewText("test1");
 			return active;
 		}
         public override bool IsVisible(){
-            //Main.NewText("test2");
 			return active;
 		}
 
